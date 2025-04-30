@@ -31,8 +31,11 @@ function Cards(props)
         {
             getCourses().map((course)=>
             
+
                
                 <Card likedCourses={likedCourses} key={course.id} course={course} setLikedCourses={setLikedCourses} />
+
+                
                 
             )
         }
