@@ -28,7 +28,7 @@ useEffect(()=>{
   <div className="  min-h-[100vh]">
 
  
-  <Filter className="bg-blue-300 " data={filterData} setCategory={setCategory} category={category} />
+  <Filter className="bg-blue-400 " data={filterData} setCategory={setCategory} category={category} />
  
 <div className="mt-[20px] w-11/12 max-w-[1200px] mx-auto  flex justify-center items-center min-h-[50vh]" >
   {
